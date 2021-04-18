@@ -1,0 +1,186 @@
+/* css reset */
+* {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #ffffff; */
+}
+
+/* Home */
+section.topContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+section.topContent .main-content {
+
+    color: #121013;
+    font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+section.topContent .sub-content {
+    color: black;
+    font-size: 20px;
+}
+
+section.title {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+.sub-title {
+    color: #121013;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+section.topContent img {
+    width: 70%;
+    /* margin-left: 160px; */
+    height: 80%;
+    /* border-radius: 15px; */
+    margin-left: 140px;
+}
+
+
+
+
+
+section.topContent .topContentImg {
+    width: 50%;
+
+}
+
+.img {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+
+/* End Home */
+
+
+
+/* Text */
+.text {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 25px;
+}
+
+/* End Text */
+
+/* Card */
+.card:hover {
+    box-shadow: 5px 10px whitesmoke;
+}
+
+/* End Card */
+
+
+
+
+#contact {
+  background: rgb(250, 235, 215)url(https://source.unsplash.com/weekly?call,contact,iphone,mobile,cellphone,phone);
+  background-size: cover;
+  background-blend-mode: normal;
+  width: 900px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  block-size: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        width: 400px;
+    }
+}
+
+.mt-3 {
+    margin-top: 200px;
+}
+
+.btn-outline-primary {
+    color: #f6f7fa;
+    border-color: #eaedf1;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #097ef3;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 90px;
+        flex: 0 0 auto;
+        width: 50%;
+        display: centre;
+        display: inline;
+        margin-inline: 80px;
+
+    }
+}
+
+element.style {
+    width: 530px;
+    height: 500px;
+
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+img.mt-3 {
+    border-radius: 35px;
+}
+
+.heading {
+    color: #121013;
+    font-size: 40px;
+    padding-block: 5px;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    padding-top: 1px;
+  font-family: 'Orelega One', cursive;
+}
+.comtainer p-4{
+  background-color: #bbbbbb;
+}
